@@ -104,7 +104,7 @@ Before you upload your code you will need to export it as a JAR file. Go inside 
 $ ./mvnw package -DskipTests
 ```
 
-Faça o upload do arquivo ```hello-world-0.0.1-SNAPSHOT.jar``` que está pasta de ```target``` do projeto.
+Faça o upload do arquivo ```world-0.0.1-SNAPSHOT.jar``` que está pasta de ```target``` do projeto.
 
 Quando o upload terminar, clique no botão 'Criar aplicativo'. A AWS começará a criar o ambiente, exibindo os logs do que está acontecendo no processo.
 
@@ -122,7 +122,7 @@ Application name: hello-world
 Platform: Java
 Application code: upload your code
 
-Upload the file ```hello-world-0.0.1-SNAPSHOT.jar``` under the ```target``` folder.
+Upload the file ```world-0.0.1-SNAPSHOT.jar``` under the ```target``` folder.
 
 When the upload completes, click on the Create application button. AWS will start to create the environment, displaying the logs of what is happening in the process.
 
