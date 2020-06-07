@@ -51,9 +51,9 @@ This project was developed in the Cloud Computing module of the Full Stack Web D
 
 ## :memo: Notas
 
-O Elastic Beanstalk executa o aplicativo na porta 5000, enquanto o Spring Boot é executado na porta 8080. Pensando nisso, configuramos nossa aplicação para rodar na porta 5000 adicionando o código ```server.port=5000``` no arquivo ```application.properties``` da pasta ```/src/main/resources/```
+O Elastic Beanstalk executa o aplicativo na porta 5000, enquanto o Spring Boot é executado na porta 8080. Pensando nisso, configuramos nossa aplicação para rodar na porta 5000 adicionando o código `server.port=5000` no arquivo `application.properties` da pasta `/src/main/resources/`
 
-Elastic Beanstalk runs the application on port 5000, while Spring Boot runs on port 8080. With that in mind, we configured our application to run on port 5000 by adding the code ```server.port=5000``` in the ```application.properties``` file in the folder ```/src/main/resources/```
+Elastic Beanstalk runs the application on port 5000, while Spring Boot runs on port 8080. With that in mind, we configured our application to run on port 5000 by adding the code `server.port=5000` in the `application.properties` file in the folder `/src/main/resources/`
 
 ## :warning: Pré-requisitos
 
@@ -77,9 +77,9 @@ To clone and run this application, you will need Git installed on your computer.
 $ ./mvnw spring-boot:run
 ```
 
-Se você acessar [```http://localhost:5000/```](http://localhost:5000/) no seu navegador web, verá a seguinte mensagem:
+Se você acessar [`http://localhost:5000/`](http://localhost:5000/) no seu navegador web, verá a seguinte mensagem:
 
-If you go to ```http://localhost:5000/``` in your web browser, you will see the following message:
+If you go to `http://localhost:5000/` in your web browser, you will see the following message:
 
 ```
 Hello World!
@@ -92,11 +92,11 @@ Após fazer login no console da AWS, vá para 'Serviços' e digite 'Elastic Bean
 
 Você criará um aplicativo da web. Coloque as seguintes informações para os campos abaixo:
 
-`
+```
 <strong>Nome do aplicativo:</strong> hello-world <br/>
-Plataforma: Java <br/>
+<b>Plataforma:</b> Java <br/>
 Código do aplicativo: faça o upload do seu código <br/>
-`
+```
 
 Faça o upload do arquivo ```hello-world-0.0.1-SNAPSHOT.jar``` que está pasta de ```target``` do projeto.
 
