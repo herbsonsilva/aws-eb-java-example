@@ -92,11 +92,9 @@ Após fazer login no console da AWS, vá para 'Serviços' e digite 'Elastic Bean
 
 Você criará um aplicativo da web. Coloque as seguintes informações para os campos abaixo:
 
-```
-**Nome do aplicativo:** hello-world <br/>
-**Plataforma:** Java <br/>
-**Código do aplicativo:** faça o upload do seu código <br/>
-```
+   **Nome do aplicativo..:** hello-world <br/>
+   **Plataforma..........:** Java <br/>
+   **Código do aplicativo:** faça o upload do seu código <br/>
 
 Faça o upload do arquivo ```hello-world-0.0.1-SNAPSHOT.jar``` que está pasta de ```target``` do projeto.
 
