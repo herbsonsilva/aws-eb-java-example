@@ -57,20 +57,15 @@ Elastic Beanstalk runs the application on port 5000, while Spring Boot runs on p
 
 ## :warning: Pré-requisitos
 
-Antes de fazer upload do seu código, será necessário exportá-lo como um arquivo JAR. Vá para a pasta raiz do aplicativo e digite o seguinte comando:
+Para clonar e executar esta aplicação, você precisará do [Git](https://git-scm.com) instalado no seu computador.
 
-Before you upload your code you will need to export it as a JAR file. Go inside your application folder and type the following command:
-
-```bash
-# Exporte o arquivo JAR | Export the JAR file
-$ ./mvnw package -DskipTests
-```
+To clone and run this application, you will need Git installed on your computer.
 
 ## :information_source: Como usar
 
-Para clonar e executar esta aplicação, você precisará do [Git](https://git-scm.com) instalado no seu computador. Na sua linha de comando digite:
+Após clonar o projeto com o Git (ou baixar e descompactar o arquivo .zip), digite a seguinte instrução na sua linha comando:
 
-To clone and run this application, you will need Git installed on your computer. At your command line type:
+After cloning the project with Git (or downloading and unzipping the .zip file), type the following statement on your command line:
 
 ```bash
 # Para rodar a aplicação | To run the application
@@ -96,6 +91,15 @@ Você criará um aplicativo da web. Coloque as seguintes informações para os c
 Nome do aplicativo..: hello-world
 Plataforma..........: Java
 Código do aplicativo: faça o upload do seu código
+```
+
+Antes de fazer upload do seu código, será necessário exportá-lo como um arquivo JAR. Vá para a pasta raiz do aplicativo e digite o seguinte comando:
+
+Before you upload your code you will need to export it as a JAR file. Go inside your application folder and type the following command:
+
+```bash
+# Exporte o arquivo JAR | Export the JAR file
+$ ./mvnw package -DskipTests
 ```
 
 Faça o upload do arquivo ```hello-world-0.0.1-SNAPSHOT.jar``` que está pasta de ```target``` do projeto.
