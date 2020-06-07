@@ -42,7 +42,7 @@ Exemplo simples de código 'Hello World' em Java para deploy na AWS com Elastic 
 
 ## :rocket: Tecnologias
 
-Este projeto foi desenvolvido para o módulo de Cloud Computing do curso de [MBA em Full Stack Web Development][curso] usando as seguintes tecnologias:
+Este projeto foi desenvolvido para o módulo de Cloud Computing do curso de [MBA em Full Stack Web Development][curso] utilizando as seguintes tecnologias:
 
 This project was developed for the Cloud Computing module of the Full Stack Web Development MBA course using the following technologies:
 
