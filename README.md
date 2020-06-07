@@ -51,9 +51,9 @@ This project was developed in the Cloud Computing module of the Full Stack Web D
 
 ## :memo: Nota | Note
 
-O Elastic Beanstalk executa o aplicativo na porta 5000, enquanto o Spring Boot é executado na porta 8080. Pensando nisso, configuramos nossa aplicação para rodar na porta 5000 adicionando o código ```server.port=5000``` no arquivo **application.properties** da pasta **/src/main/resources/**
+O Elastic Beanstalk executa o aplicativo na porta 5000, enquanto o Spring Boot é executado na porta 8080. Pensando nisso, configuramos nossa aplicação para rodar na porta 5000 adicionando o código ```server.port=5000``` no arquivo ```application.properties``` da pasta ```/src/main/resources/```
 
-Elastic Beanstalk runs the application on port 5000, while Spring Boot runs on port 8080. With that in mind, we configured our application to run on port 5000 by adding the code ```server.port=5000``` in the **application.properties** file in the folder **/ src / main / resources /**
+Elastic Beanstalk runs the application on port 5000, while Spring Boot runs on port 8080. With that in mind, we configured our application to run on port 5000 by adding the code ```server.port=5000``` in the ```application.properties``` file in the folder ```/src/main/resources/```
 
 ## :warning: Pré-requisitos | Prerequisites
 
@@ -77,15 +77,15 @@ To clone and run this application, you will need Git installed on your computer.
 $ ./mvnw spring-boot:run
 ```
 
-Se você acessar ```http://localhost:5000/``` no seu navegador web, verá a seguinte mensagem:
+Se você acessar [```http://localhost:5000/```](http://localhost:5000/) no seu navegador web, verá a seguinte mensagem:
 
-If you go to http://localhost:5000/ in your web browser, you will see the following message:
+If you go to ```http://localhost:5000/``` in your web browser, you will see the following message:
 
 ```
 Hello World!
 ```
 
-**Implantar o aplicativo no AWS Elastic Beanstalk**
+**Implantar o aplicativo no AWS Elastic Beanstalk** <br/>
 Deploy The Application To AWS Elastic Beanstalk
 
 Após fazer login no console da AWS, vá para 'Serviços' e digite 'Elastic Beanstalk' na pesquisa. Clique nele e você será redirecionado para uma página de boas-vindas. Clique no botão 'Iniciar' para começar a criar seu aplicativo na nuvem.
@@ -96,7 +96,7 @@ Nome do aplicativo: hello-world
 Plataforma: Java
 Código do aplicativo: faça o upload do seu código
 
-Faça o upload do arquivo **hello-world-0.0.1-SNAPSHOT.jar** que está pasta de **target** do projeto.
+Faça o upload do arquivo ```hello-world-0.0.1-SNAPSHOT.jar``` que está pasta de ```target``` do projeto.
 
 Quando o upload terminar, clique no botão 'Criar aplicativo'. A AWS começará a criar o ambiente, exibindo os logs do que está acontecendo no processo.
 
@@ -104,7 +104,7 @@ Depois que o ambiente estiver configurado, a AWS o redirecionará para o 'Painel
 
 Isso é tudo pessoal!
 
-<hr/>
+--
 
 After logging into the AWS console, go to Services and type Elastic Beanstalk in the search. Click on it, and it will redirect you to a Welcome page. Click on the Get started button to start creating your application in the cloud.
 
@@ -114,7 +114,7 @@ Application name: hello-world
 Platform: Java
 Application code: upload your code
 
-Upload the file **hello-world-0.0.1-SNAPSHOT.jar** under the **target** folder.
+Upload the file ```hello-world-0.0.1-SNAPSHOT.jar``` under the ```target``` folder.
 
 When the upload completes, click on the Create application button. AWS will start to create the environment, displaying the logs of what is happening in the process.
 
