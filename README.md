@@ -40,6 +40,8 @@ Exemplo simples de código 'Hello World' em Java para deploy na AWS com Elastic 
   <a href="#page_facing_up-licença">Licença</a>
 </p>
 
+![App Screenshot](https://res.cloudinary.com/herbsonsilva/image/upload/v1591504275/aws-eb-java-example/aws-eb-java-example03_gweoru.jpg)
+
 ## :rocket: Tecnologias
 
 Este projeto foi desenvolvido para o módulo de Cloud Computing do curso de [MBA em Full Stack Web Development][curso] utilizando as seguintes tecnologias:
