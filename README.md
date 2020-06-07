@@ -92,9 +92,11 @@ Após fazer login no console da AWS, vá para 'Serviços' e digite 'Elastic Bean
 
 Você criará um aplicativo da web. Coloque as seguintes informações para os campos abaixo:
 
+```
 **Nome do aplicativo:** hello-world <br/>
 **Plataforma:** Java <br/>
 **Código do aplicativo:** faça o upload do seu código <br/>
+```
 
 Faça o upload do arquivo ```hello-world-0.0.1-SNAPSHOT.jar``` que está pasta de ```target``` do projeto.
 
@@ -124,9 +126,9 @@ That's all folk!
 
 ## :page_facing_up: Licença
 
-Este projeto está sob a licença MIT. Consulte [LICENÇA](https://github.com/herbsonsilva/aws-eb-java-example/blob/master/LICENSE) para obter mais informações.
+Este projeto está sob a licença MIT. Consulte o arquivo [```LICENSE```](LICENSE) para obter mais informações.
 
-This project is under the MIT license. See the [LICENSE](LICENSE) for more information.
+This project is under the MIT license. See the ```LICENSE``` file for more information.
 
 ---
 
