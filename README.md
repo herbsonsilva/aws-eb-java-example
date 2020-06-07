@@ -2,13 +2,14 @@
 Exemplo simples de código 'Hello World' em Java para deploy na AWS com Elastic Beanstalk.
 
 <h1 align="center">
-    MBA Full Stack Web Development<br />
+    MBA em Full Stack Web Development<br />
     Módulo: Cloud Computing
 </h1>
 
 <h4 align="center">
   
 </h4>
+
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/herbsonsilva/eb-java-example.svg">
   
@@ -32,24 +33,31 @@ Exemplo simples de código 'Hello World' em Java para deploy na AWS com Elastic 
 </p>
 
 <p align="center">
-  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#warning-prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
+  <a href="#rocket-tecnologias-|-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-nota-|-nota">Note</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#warning-pre-requisitos-|-prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-como-usar-|-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#page_facing_up-licença-|-license">License</a>
 </p>
 
-## :rocket: Technologies
+## :rocket: Tecnologias | Technologies
 
-This project was developed in the Cloud Computing module of the [Full Stack Web Development MBA][curso] using the following technologies:
+Este projeto foi desenvolvido no módulo de Cloud Computing do curso de [MBA em Full Stack Web Development][curso] usando as seguintes tecnologias:
+
+This project was developed in the Cloud Computing module of the Full Stack Web Development MBA course using the following technologies:
 
 -  [Spring Boot](https://spring.io/projects/spring-boot)
 -  [Spring Tools 4](https://spring.io/tools)
 
+## :memo: Nota | Note
+
+O Elastic Beanstalk executa o aplicativo na porta 5000, enquanto o Spring Boot é executado na porta 8080. Pensando nisso, configuramos nossa aplicação para rodar na porta 5000 adicionando o código ```server.port=5000``` no arquivo **application.properties** da pasta **/src/main/resources/**
+
+Elastic Beanstalk runs the application on port 5000, while Spring Boot runs on port 8080. With that in mind, we configured our application to run on port 5000 by adding the code ```server.port=5000``` in the **application.properties** file in the folder **/ src / main / resources /**
+
 ## :warning: Pré-requisitos | Prerequisites
 
 Antes de fazer upload do seu código, será necessário exportá-lo como um arquivo JAR. Vá para a pasta raiz do aplicativo e digite o seguinte comando:
-
--
 
 Before you upload your code you will need to export it as a JAR file. Go inside your application folder and type the following command:
 
@@ -58,7 +66,27 @@ Before you upload your code you will need to export it as a JAR file. Go inside 
 $ ./mvnw package -DskipTests
 ```
 
-## :information_source: Como usar / How To Use
+## :information_source: Como usar | How To Use
+
+Para clonar e executar esta aplicação, você precisará do [Git](https://git-scm.com) instalado no seu computador. Na sua linha de comando digite:
+
+To clone and run this application, you will need Git installed on your computer. At your command line type:
+
+```bash
+# Para rodar a aplicação | To run the application
+$ ./mvnw spring-boot:run
+```
+
+Se você acessar ```http://localhost:5000/``` no seu navegador web, verá a seguinte mensagem:
+
+If you go to http://localhost:5000/ in your web browser, you will see the following message:
+
+```
+Hello World!
+```
+
+**Implantar o aplicativo no AWS Elastic Beanstalk**
+Deploy The Application To AWS Elastic Beanstalk
 
 Após fazer login no console da AWS, vá para 'Serviços' e digite 'Elastic Beanstalk' na pesquisa. Clique nele e você será redirecionado para uma página de boas-vindas. Clique no botão 'Iniciar' para começar a criar seu aplicativo na nuvem.
 
@@ -68,13 +96,15 @@ Nome do aplicativo: hello-world
 Plataforma: Java
 Código do aplicativo: faça o upload do seu código
 
-Faça o upload do arquivo 'hello-world-0.0.1-SNAPSHOT.jar' que está pasta de 'target' do projeto.
+Faça o upload do arquivo **hello-world-0.0.1-SNAPSHOT.jar** que está pasta de **target** do projeto.
 
 Quando o upload terminar, clique no botão 'Criar aplicativo'. A AWS começará a criar o ambiente, exibindo os logs do que está acontecendo no processo.
 
 Depois que o ambiente estiver configurado, a AWS o redirecionará para o 'Painel'. Acima do menu do painel, você encontrará a URL para acessar o aplicativo. Abra-o em uma nova guia e ele carregará a página na web.
 
-# Isso é tudo pessoal!
+Isso é tudo pessoal!
+
+<hr/>
 
 After logging into the AWS console, go to Services and type Elastic Beanstalk in the search. Click on it, and it will redirect you to a Welcome page. Click on the Get started button to start creating your application in the cloud.
 
@@ -84,7 +114,7 @@ Application name: hello-world
 Platform: Java
 Application code: upload your code
 
-Upload the file 'hello-world-0.0.1-SNAPSHOT.jar' under the 'target' folder.
+Upload the file **hello-world-0.0.1-SNAPSHOT.jar** under the **target** folder.
 
 When the upload completes, click on the Create application button. AWS will start to create the environment, displaying the logs of what is happening in the process.
 
@@ -92,7 +122,7 @@ Once the environment is set up, AWS will redirect you to the Dashboard. Above th
 
 That's all folk! 
 
-## :memo: License
+## :page_facing_up: Licença | License
 This project is under the MIT license. See the [LICENSE](https://github.com/herbsonsilva/aws-eb-java-example/blob/master/LICENSE) for more information.
 
 ---
