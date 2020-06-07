@@ -33,8 +33,8 @@ Exemplo simples de código 'Hello World' em Java para deploy na AWS com Elastic 
 </p>
 
 <p align="center">
-  <a href="#rocket-tecnologias-|-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-nota-|-nota">Note</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-nota">Note</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#warning-pre-requisitos-|-prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-como-usar-|-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#page_facing_up-licença-|-license">License</a>
@@ -49,7 +49,7 @@ This project was developed in the Cloud Computing module of the Full Stack Web D
 -  [Spring Boot](https://spring.io/projects/spring-boot)
 -  [Spring Tools 4](https://spring.io/tools)
 
-## :memo: Nota | Note
+## :memo: Nota
 
 O Elastic Beanstalk executa o aplicativo na porta 5000, enquanto o Spring Boot é executado na porta 8080. Pensando nisso, configuramos nossa aplicação para rodar na porta 5000 adicionando o código ```server.port=5000``` no arquivo ```application.properties``` da pasta ```/src/main/resources/```
 
@@ -85,16 +85,16 @@ If you go to ```http://localhost:5000/``` in your web browser, you will see the 
 Hello World!
 ```
 
-**Implantar o aplicativo no AWS Elastic Beanstalk** <br/>
-Deploy The Application To AWS Elastic Beanstalk
+**Implantando o aplicativo no AWS Elastic Beanstalk** <br/>
+Deploying the application to AWS Elastic Beanstalk
 
 Após fazer login no console da AWS, vá para 'Serviços' e digite 'Elastic Beanstalk' na pesquisa. Clique nele e você será redirecionado para uma página de boas-vindas. Clique no botão 'Iniciar' para começar a criar seu aplicativo na nuvem.
 
 Você criará um aplicativo da web. Coloque as seguintes informações para os campos abaixo:
 
-Nome do aplicativo: hello-world
-Plataforma: Java
-Código do aplicativo: faça o upload do seu código
+**Nome do aplicativo:** hello-world <br/>
+**Plataforma:** Java <br/>
+**Código do aplicativo:** faça o upload do seu código <br/>
 
 Faça o upload do arquivo ```hello-world-0.0.1-SNAPSHOT.jar``` que está pasta de ```target``` do projeto.
 
