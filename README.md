@@ -112,7 +112,7 @@ Depois que o ambiente estiver configurado, a AWS o redirecionará para o 'Painel
 
 Isso é tudo pessoal!
 
---
+------
 
 After logging into the AWS console, go to Services and type Elastic Beanstalk in the search. Click on it, and it will redirect you to a Welcome page. Click on the Get started button to start creating your application in the cloud.
 
