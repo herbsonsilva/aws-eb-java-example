@@ -40,7 +40,7 @@ Exemplo simples de código 'Hello World' em Java para deploy na AWS com Elastic 
   <a href="#page_facing_up-licença">Licença</a>
 </p>
 
-## :rocket: Tecnologias | Technologies
+## :rocket: Tecnologias
 
 Este projeto foi desenvolvido no módulo de Cloud Computing do curso de [MBA em Full Stack Web Development][curso] usando as seguintes tecnologias:
 
@@ -49,13 +49,13 @@ This project was developed in the Cloud Computing module of the Full Stack Web D
 -  [Spring Boot](https://spring.io/projects/spring-boot)
 -  [Spring Tools 4](https://spring.io/tools)
 
-## :memo: Nota
+## :memo: Notas
 
 O Elastic Beanstalk executa o aplicativo na porta 5000, enquanto o Spring Boot é executado na porta 8080. Pensando nisso, configuramos nossa aplicação para rodar na porta 5000 adicionando o código ```server.port=5000``` no arquivo ```application.properties``` da pasta ```/src/main/resources/```
 
 Elastic Beanstalk runs the application on port 5000, while Spring Boot runs on port 8080. With that in mind, we configured our application to run on port 5000 by adding the code ```server.port=5000``` in the ```application.properties``` file in the folder ```/src/main/resources/```
 
-## :warning: Pré-requisitos | Prerequisites
+## :warning: Pré-requisitos
 
 Antes de fazer upload do seu código, será necessário exportá-lo como um arquivo JAR. Vá para a pasta raiz do aplicativo e digite o seguinte comando:
 
@@ -66,7 +66,7 @@ Before you upload your code you will need to export it as a JAR file. Go inside 
 $ ./mvnw package -DskipTests
 ```
 
-## :information_source: Como usar | How To Use
+## :information_source: Como usar
 
 Para clonar e executar esta aplicação, você precisará do [Git](https://git-scm.com) instalado no seu computador. Na sua linha de comando digite:
 
@@ -122,8 +122,11 @@ Once the environment is set up, AWS will redirect you to the Dashboard. Above th
 
 That's all folk! 
 
-## :page_facing_up: Licença | License
-This project is under the MIT license. See the [LICENSE](https://github.com/herbsonsilva/aws-eb-java-example/blob/master/LICENSE) for more information.
+## :page_facing_up: Licença
+
+Este projeto está sob a licença MIT. Consulte [LICENÇA](https://github.com/herbsonsilva/aws-eb-java-example/blob/master/LICENSE) para obter mais informações.
+
+This project is under the MIT license. See the [LICENSE](LICENSE) for more information.
 
 ---
 
