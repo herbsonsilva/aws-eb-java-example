@@ -40,6 +40,8 @@ Exemplo simples de código 'Hello World' em Java para deploy na AWS com Elastic 
   <a href="#page_facing_up-licença">Licença</a>
 </p>
 
+![App Screenshot](https://res.cloudinary.com/herbsonsilva/image/upload/v1591504276/aws-eb-java-example/aws-eb-java-example01_t7lpfg.jpg)
+![App Screenshot](https://res.cloudinary.com/herbsonsilva/image/upload/v1591504276/aws-eb-java-example/aws-eb-java-example02_wq7t6h.jpg)
 ![App Screenshot](https://res.cloudinary.com/herbsonsilva/image/upload/v1591504275/aws-eb-java-example/aws-eb-java-example03_gweoru.jpg)
 
 ## :rocket: Tecnologias
